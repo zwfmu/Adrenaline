@@ -1,3 +1,23 @@
+什么是肾上腺素？
+Adrenaline是一款使用taiHEN CFW框架修改官方PSP模拟软件， 使其运行PSP 6.61自定义固件。
+
+如何安装
+下载Adrenaline.vpk并使用VitaShell安装它。
+启动Adrenaline并按下X下载6.61固件。完成后它会自动终止。
+重新启动肾上腺素，这次它会进入pspemu模式。按照屏幕上的指示。
+
+如果已经安装了Adrenaline并想快速更新，只需将Adrenaline.vpk改为zip文件打开并将所有模块从sce_module复制到ux0：app / PSPEMUCFW / sce_module即可。
+
+
+更新v6.4
+通过按L + SELECT增加了在PS1游戏中快进的功能。
+修复了使用没有enso时的双重启动错误。您需要将内核模块添加到配置才能这样做。
+
+
+肾上腺素已重新设计6.61 Adrenaline-6，因此每次重新启动设备时都需要启动两次肾​​上腺素。为了摆脱这一点，只需将此行写入ux0:tai/config.txt *KERNEL
+
+
+
 6.61 Adrenaline
 ================================================================================
 
